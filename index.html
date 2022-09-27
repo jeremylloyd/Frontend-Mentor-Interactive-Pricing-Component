@@ -12,25 +12,47 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-  Simple, traffic-based pricing
-  Sign-up for our 30-day trial. No credit card required. 
-
-  Pageviews
-  $ /month
-
-  Monthly Billing
-  Yearly Billing 25% discount
-
-  Unlimited websites
-  100% data ownership
-  Email reports
-
-  Start my trial
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="panel">
+    <header class="panel__header">
+      <h1 class="panel__title">Simple, traffic-based pricing</h1>
+      <p>
+        <span>Sign-up for our 30-day trial.</span> 
+        <span>No credit card required</span>
+      </p>
+    </header>
+    <section class="calc">
+      <p class="calc__views">100k pageviews</p>
+      <div class="calc__slider"></div>
+      <div class="calc__rate">
+        <h2 class="calc__price">$16.00</h2>
+        <p class="calc__period">/ month</p>
+      </div>
+      <div class="calc__discount">
+        <span class="calc__label calc__label--monthly">Monthly Billing</span>
+        <label for="" class="switch">
+          <input type="checkbox" class="switch__checkbox">
+          <span class="switch__slider"></span>
+        </label>
+        <span class="calc__label calc__label--yearly">Yearly Billing</span>
+        <span class="calc__reduction">-25%</span>
+      </div>
+      <hr class="calc__hr">
+      <div class="calc__offers">
+        <p class="calc__offer">
+          <img src="./images/icon-check.svg" alt="" class="calc__tick">
+          <span class="calc__label">Unlimited websites</span>
+        </p>
+        <p class="calc__offer">
+          <img src="./images/icon-check.svg" alt="" class="calc__tick">
+          <span class="calc__label">100% data ownership</span>
+        </p>
+        <p class="calc__offer">
+          <img src="./images/icon-check.svg" alt="" class="calc__tick">
+          <span class="calc__label">Email reports</span>
+        </p>
+      </div>
+      <button class="calc__button">Start my trial</button>
+    </section>
+  </main>
 </body>
 </html>
