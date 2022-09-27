@@ -61,3 +61,155 @@ table {
   --theme-greyblue: hsl(225, 20%, 60%);
   --theme-darkblue: hsl(227, 35%, 25%);
 }
+
+body {
+	padding: 25px;
+	background-image: url(./images/bg-pattern.svg);
+	background-repeat: no-repeat;
+	background-size: calc(max(100%, 1440px)) 50vh;
+	background-color: var(--theme-lightergreyblue);
+	font-family: "Manrope";
+}
+
+.calc {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 35px;
+	padding: 40px 25px;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 0.8rem;
+}
+
+.calc__button {
+	font-family: "Manrope";
+	font-weight: 800;
+	font-size: 0.8rem;
+	background-color: var(--theme-darkblue);
+	border: none;
+	color: var(--theme-lightgreyblue);
+	padding: .75rem 3rem;
+	border-radius: 2rem;
+	cursor: pointer;
+}
+
+.calc__button:hover {
+	color: var(--theme-lightergreyblue);
+}
+
+.calc__discount {
+
+}
+
+.calc__hr {
+	border: solid 1px var(--theme-lightergreyblue);
+	width: 100%;
+}
+
+.calc__label {
+
+}
+
+.calc__label--monthly {
+
+}
+
+.calc__label--yearly {
+
+}
+
+.calc__offer {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.calc__offers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: .75rem;
+}
+
+.calc__period {
+
+}
+
+.calc__price {
+	font-size: 2rem;
+	font-weight: 800;
+	color: var(--theme-darkblue);
+}
+
+.calc__rate {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: auto;
+}
+
+.calc__reduction {
+
+}
+
+.calc__slider {
+
+}
+
+.calc__tick {
+
+}
+
+.calc__views {
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+}
+
+.panel {
+	display: flex;
+	flex-direction: column;
+	color: var(--theme-greyblue);
+}
+
+.panel__header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: var(--theme-darkblue);
+	text-align: center;
+	padding: 60px 0;
+	background-image: url(./images/pattern-circles.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.panel__title {
+	font-size: 1.25rem;
+	font-weight: 800;
+	margin-bottom: 1rem;
+}
+
+.panel__subtitle {
+	color: var(--theme-greyblue);
+	font-size: 0.9rem;
+	line-height: 1.5rem;
+}
+
+.panel__line {
+	white-space: nowrap;
+}
+
+.switch {
+
+}
+
+.switch__checkbox {
+
+}
+
+.switch__slider {
+
+}

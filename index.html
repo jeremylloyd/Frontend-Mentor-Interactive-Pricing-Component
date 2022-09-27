@@ -14,16 +14,17 @@
 <body>
   <main class="panel">
     <header class="panel__header">
-      <img src="./images/pattern-circles.svg" alt="" class="panel__bg">
       <h1 class="panel__title">Simple, traffic-based pricing</h1>
-      <p>
-        <span>Sign-up for our 30-day trial.</span> 
-        <span>No credit card required</span>
+      <p class="panel__subtitle">
+        <span class="panel__line">Sign-up for our 30-day trial.</span> 
+        <span class="panel__line">No credit card required.</span>
       </p>
     </header>
     <section class="calc">
       <p class="calc__views">100k pageviews</p>
-      <div class="calc__slider"></div>
+      <div class="calc__slider">
+        <input type="range">
+      </div>
       <div class="calc__rate">
         <h2 class="calc__price">$16.00</h2>
         <p class="calc__period">/ month</p>
