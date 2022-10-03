@@ -80,6 +80,7 @@ body {
 	background-color: white;
 	border-radius: 10px;
 	font-size: 0.8rem;
+	box-shadow: 0 0 20px var(--theme-lightergreyblue);
 }
 
 .calc__button {
@@ -116,8 +117,9 @@ body {
 }
 
 .calc__hr {
-	border: solid 1px var(--theme-lightergreyblue);
-	width: 100%;
+	border: solid 1px var(--theme-verypaleblue);
+	width: calc(100% + 50px);
+	margin-left: -25px;
 }
 
 .calc__label {
@@ -296,7 +298,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: var(--theme-lightgreyblue);
   transition: .2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
