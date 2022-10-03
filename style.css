@@ -92,6 +92,7 @@ body {
 	padding: .75rem 3rem;
 	border-radius: 2rem;
 	cursor: pointer;
+	white-space: nowrap;
 }
 
 .calc__button:hover {
@@ -99,7 +100,9 @@ body {
 }
 
 .calc__discount {
-
+	display: flex;
+	align-items: center;
+	gap: 12px;
 }
 
 .calc__hr {
@@ -107,12 +110,9 @@ body {
 	width: 100%;
 }
 
-.calc__label {
-
-}
-
 .calc__label--monthly {
-
+	/* width: calc(50% - 20px - 12px); */
+	text-align: right;
 }
 
 .calc__label--yearly {
@@ -129,7 +129,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: .75rem;
+	gap: 1rem;
 }
 
 .calc__period {
@@ -146,17 +146,23 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 10px;
-	margin: auto;
 }
 
 .calc__reduction {
-
+	color: var(--theme-lightred);
+	font-weight: 800;
+	font-size: 0.65rem;
+	background-color: var(--theme-greyred);
+	border-radius: 1rem;
+	padding: 0.25rem 0.5rem;
 }
 
 
 
 
-
+.slider {
+	width: 100%;
+}
 
 .slider__input {
   -webkit-appearance: none;
@@ -252,6 +258,7 @@ body {
 .switch {
   position: relative;
   display: inline-block;
+	flex-shrink: 0;
   width: 40px;
   height: 22px;
 }
@@ -294,5 +301,5 @@ body {
 }
 
 .switch__checkbox:checked + .switch__slider:before {
-  transform: translateX(18px);
+  transform: translateX(16px);
 }
