@@ -47,8 +47,8 @@ function updateSliderBarColour() {
       to right,
       var(--theme-lightcyan) 0%,
       var(--theme-lightcyan) ${inputRange.valueAsNumber * 25}%,
-      var(--theme-lightgreyblue) ${inputRange.valueAsNumber * 25}%,
-      var(--theme-lightgreyblue) 100%
+      var(--theme-lightergreyblue) ${inputRange.valueAsNumber * 25}%,
+      var(--theme-lightergreyblue) 100%
     )
   `;
 }
