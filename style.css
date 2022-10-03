@@ -102,12 +102,16 @@ body {
 .calc__discount {
 	display: flex;
 	align-items: center;
-	gap: 12px;
+	gap: 5px;
 }
 
 .calc__hr {
 	border: solid 1px var(--theme-lightergreyblue);
 	width: 100%;
+}
+
+.calc__label {
+	white-space: nowrap;
 }
 
 .calc__label--monthly {
@@ -261,6 +265,7 @@ body {
 	flex-shrink: 0;
   width: 40px;
   height: 22px;
+	margin: 0 7px;
 }
 
 
