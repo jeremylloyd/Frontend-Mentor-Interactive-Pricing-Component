@@ -117,7 +117,7 @@ body {
 }
 
 .calc__hr {
-	border: solid 1px var(--theme-verypaleblue);
+	border: solid 1px hsl(224, 5%, 97%);
 	width: calc(100% + 50px);
 	margin-left: -25px;
 }
