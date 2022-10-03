@@ -23,15 +23,17 @@
       </p>
     </header>
     <section class="calc">
-      <p class="calc__views">100k pageviews</p>
-
-      <div class="slider">
-        <input type="range" class="slider__input" min="0" max="4">
-      </div>
-
-      <div class="calc__rate">
-        <h2 class="calc__price">$16.00</h2>
-        <p class="calc__period">/ month</p>
+      <div class="calc__rate-selector">
+        <p class="calc__views">100k pageviews</p>
+  
+        <div class="slider">
+          <input type="range" class="slider__input" min="0" max="4">
+        </div>
+  
+        <div class="calc__rate">
+          <h2 class="calc__price">$16.00</h2>
+          <p class="calc__period">/ month</p>
+        </div>
       </div>
       <div class="calc__discount">
         <span class="calc__label calc__label--monthly">Monthly Billing</span>
@@ -46,24 +48,26 @@
 
 
         <span class="calc__label calc__label--yearly">Yearly Billing</span>
-        <span class="calc__reduction">-25%</span>
+        <span class="calc__reduction">-25% <span class="calc__disc-label"> discount</span></span>
       </div>
       <hr class="calc__hr">
-      <div class="calc__offers">
-        <p class="calc__offer">
-          <img src="./images/icon-check.svg" alt="" class="calc__tick">
-          <span class="calc__label">Unlimited websites</span>
-        </p>
-        <p class="calc__offer">
-          <img src="./images/icon-check.svg" alt="" class="calc__tick">
-          <span class="calc__label">100% data ownership</span>
-        </p>
-        <p class="calc__offer">
-          <img src="./images/icon-check.svg" alt="" class="calc__tick">
-          <span class="calc__label">Email reports</span>
-        </p>
-      </div>
-      <button class="calc__button">Start my trial</button>
+      <footer class="calc__footer">
+        <div class="calc__offers">
+          <p class="calc__offer">
+            <img src="./images/icon-check.svg" alt="" class="calc__tick">
+            <span class="calc__label">Unlimited websites</span>
+          </p>
+          <p class="calc__offer">
+            <img src="./images/icon-check.svg" alt="" class="calc__tick">
+            <span class="calc__label">100% data ownership</span>
+          </p>
+          <p class="calc__offer">
+            <img src="./images/icon-check.svg" alt="" class="calc__tick">
+            <span class="calc__label">Email reports</span>
+          </p>
+        </div>
+        <button class="calc__button">Start my trial</button>
+      </footer>
     </section>
   </main>
 </body>
