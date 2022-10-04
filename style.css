@@ -64,7 +64,7 @@ table {
 
 body {
 	padding: 25px;
-	background-image: url(/images/bg-pattern.svg);
+	background-image: url(./images/bg-pattern.svg);
 	background-repeat: no-repeat;
 	background-size: calc(max(100%, 1440px)) 50vh;
 	background-color: var(--theme-verypaleblue);
@@ -216,7 +216,7 @@ body {
   border: none;
   outline: none;
   border-radius: 50%;
-  background-image: url('../images/icon-slider.svg');
+  background-image: url('./images/icon-slider.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--theme-darkcyan);
