@@ -64,7 +64,7 @@ table {
 
 body {
 	padding: 25px;
-	background-image: url(./images/bg-pattern.svg);
+	background-image: url(/images/bg-pattern.svg);
 	background-repeat: no-repeat;
 	background-size: calc(max(100%, 1440px)) 50vh;
 	background-color: var(--theme-verypaleblue);
